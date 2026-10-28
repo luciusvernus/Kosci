@@ -1,0 +1,4 @@
+System operacyjny: Windows 11
+Środowisko programistyczne: Visual Studio (aplikacja konsolowa i aplikacja .NET MAUI)
+Emulator: Android Emulator - Pixel 8 (Android 16, API 36)
+Języki programowania: C# (aplikacja konsolowa i mobilna), XAML (wygląd aplikacji mobilnej)

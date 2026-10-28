@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kosci.MainPage"
+             BackgroundColor="Beige">
+
+    <VerticalStackLayout>
+        <Label Text="Gra w kości. Autor Bartosz Bryniarski"
+               FontSize="24"
+               BackgroundColor="Brown"
+               TextColor="White"
+               Padding="10"
+               Margin="0,10"
+               HorizontalTextAlignment="Center" />
+
+        <Button Text="RZUĆ KOŚĆMI"
+                Clicked="OnRollClicked"
+                BackgroundColor="Chocolate"
+                HorizontalOptions="Center"
+                Margin="0,10" />
+
+        <HorizontalStackLayout BackgroundColor="White" Margin="0,10">
+            <Image x:Name="Die1" Source="question.jpg" WidthRequest="64" HeightRequest="64" Margin="9" />
+            <Image x:Name="Die2" Source="question.jpg" WidthRequest="64" HeightRequest="64" Margin="9" />
+            <Image x:Name="Die3" Source="question.jpg" WidthRequest="64" HeightRequest="64" Margin="9" />
+            <Image x:Name="Die4" Source="question.jpg" WidthRequest="64" HeightRequest="64" Margin="9" />
+            <Image x:Name="Die5" Source="question.jpg" WidthRequest="64" HeightRequest="64" Margin="9" />
+        </HorizontalStackLayout>
+
+        <Label x:Name="RollResultLabel"
+               Text="Wynik tego losowania: "
+               HorizontalTextAlignment="Center"
+               Margin="0,10" />
+
+        <Label x:Name="GameResultLabel"
+               Text="Wynik gry: "
+               HorizontalTextAlignment="Center"
+               Margin="0,10" />
+
+        <Button Text="RESETUJ WYNIK"
+                Clicked="OnResetClicked"
+                BackgroundColor="Chocolate"
+                HorizontalOptions="Center"
+                Margin="0,10" />
+    </VerticalStackLayout>
+
+</ContentPage>
