@@ -36,7 +36,7 @@ static int[] RollDice(int count)
              wypadła co najmniej dwa razy
   parametry: dice - tablica z liczbami oczek wyrzuconymi na kolejnych kościach
   zwracany typ i opis: int - liczba punktów za rzut
-  autor:     Bartosz Bryniarski
+  autor:     Lucjan Reiter
 ************************************************
 */
 static int CountPoints(int[] dice)
